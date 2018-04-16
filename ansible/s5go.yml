@@ -1,0 +1,23 @@
+---
+- hosts: s5go
+  remote_user: root
+  tasks:
+  - file: path=/opt/s5go/bin/ state=directory
+  - name: upload binary
+    copy:
+      src: ../bin/s5go
+      dest: /opt/s5go/bin/s5go
+      mode: "+x"
+  - name: upload config
+    copy:
+      src: ../config.toml
+      dest: /opt/s5go/config.toml
+  - name: upload service
+    copy:
+      src: ./s5go.service
+      dest: /etc/systemd/system
+  - name: restart service
+    systemd:
+      state: restarted
+      daemon_reload: yes
+      name: s5go.service

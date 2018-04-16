@@ -1,0 +1,3 @@
+ansible/hosts
+config.toml
+bin/
