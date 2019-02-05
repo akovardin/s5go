@@ -1,0 +1,41 @@
+# github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
+github.com/armon/go-socks5
+# github.com/fsnotify/fsnotify v1.4.7
+github.com/fsnotify/fsnotify
+# github.com/hashicorp/hcl v0.0.0-20180404174102-ef8a98b0bbce
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/magiconair/properties v1.7.6
+github.com/magiconair/properties
+# github.com/mitchellh/mapstructure v0.0.0-20180220230111-00c29f56e238
+github.com/mitchellh/mapstructure
+# github.com/pelletier/go-toml v1.1.0
+github.com/pelletier/go-toml
+# github.com/spf13/afero v1.1.0
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.2.0
+github.com/spf13/cast
+# github.com/spf13/jwalterweatherman v0.0.0-20180109140146-7c0cea34c8ec
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.1
+github.com/spf13/pflag
+# github.com/spf13/viper v1.0.2
+github.com/spf13/viper
+# golang.org/x/net v0.0.0-20180416171110-a35a21de978d
+golang.org/x/net/context
+# golang.org/x/sys v0.0.0-20180416112224-2f57af4873d0
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.0
+golang.org/x/text/transform
+golang.org/x/text/unicode/norm
+# gopkg.in/yaml.v2 v2.2.1
+gopkg.in/yaml.v2
